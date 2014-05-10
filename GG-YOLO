@@ -1,0 +1,47 @@
+--GG Spam by The Saint. Special thanks to Broland
+--Spam by The Saint&Radovan
+HK1 = 37 -- Left Arrow (GG)
+HK2 = 38 -- Top Arrow (LOL)
+HK3 = 39 -- Right Arrow (YOLO)
+HK4 = 40 -- Down Arrow (NOOB)
+function OnWndMsg(msg, keycode )
+        if keycode == HK1 and msg == KEY_DOWN then
+                SendChat("/all ")
+                SendChat("/all `####```####")
+                SendChat("/all #`````#``#`````#")
+                SendChat("/all #`````````#")
+                SendChat("/all #```##``#```##")
+                SendChat("/all #`````#``#`````#")
+                SendChat("/all `###`````###")
+                SendChat("/all ")
+        end
+        if keycode == HK2 and msg == KEY_DOWN then
+                SendChat("/all ")
+                SendChat("/all #``````````##`````#")
+                SendChat("/all #`````````#```#```#")
+                SendChat("/all #````````#`````#``#")
+                SendChat("/all #`````````#```#```#")
+                SendChat("/all #####```##````#####")
+                SendChat("/all ")
+        end
+        if keycode == HK3 and msg == KEY_DOWN then
+                SendChat("/all ")
+                SendChat("/all #`````#`````##````#``````````##")
+                SendChat("/all `#```#````#```#```#`````````#```#")
+                SendChat("/all ``#`#````#````#``#`````````#````#")
+                SendChat("/all ```#``````#```#```#`````````#```#")
+                SendChat("/all ```#```````##`````####````##")
+                SendChat("/all ")
+        end
+        if keycode == HK4 and msg == KEY_DOWN then
+                SendChat("/all ")
+                SendChat("/all #`````#````###``````###````####")
+                SendChat("/all ##````#```#```#````#```#```#```````#")
+                SendChat("/all #`#```#``#`````#``#`````#``#```````#")
+                SendChat("/all #``#``#``#`````#``#`````#``#####")
+                SendChat("/all #```#`#``#`````#``#`````#``#```````#")
+                SendChat("/all #```#`#``#`````#``#`````#``#```````#")
+                SendChat("/all #`````#````###``````###````####")
+                SendChat("/all ")
+        end
+end
